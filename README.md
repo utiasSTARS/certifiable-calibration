@@ -23,7 +23,7 @@ The code for plots appearing in our [paper](https://arxiv.org) listed below can 
 ### Calibration Example Script
 The script `matlab/example_egomotion_calibration.m` shows a sample usage of the function `matlab/egomotion_calibration/egomotion_calibration.m` on simulated noisy data. 
 
-<img src="https://raw.githubusercontent.com/utiasSTARS/certifiable-calibration/master/egomotion.png" width="400px"/>
+<img src="https://raw.githubusercontent.com/utiasSTARS/certifiable-calibration/master/sensor_egomotion.png" width="400px"/>
 
 
 ## Citation
