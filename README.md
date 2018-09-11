@@ -1,14 +1,8 @@
 # certifiable-calibration
-Certifiably globally optimal extrinsic calibration for sensors providing egomotion estimates. If you use any of this code in your work, please cite the [relevant publication](https://arxiv.org): 
+Certifiably globally optimal extrinsic calibration for sensors providing egomotion estimates. 
 
-```bibtex
-@article{giamou2017talk,
-  title   = {Certifiably Globally Optimal Extrinsic Calibration from Per-Sensor Egomotion},
-  author  = {Giamou, Matthew and Ma, Ziye and Peretroukhin, Valentin and Kelly, Jonathan},
-  journal = {{IEEE} Robotics and Automation Letters (submitted)}
-  year    = {2018}
-}
-```
+<img src="https://raw.githubusercontent.com/utiasSTARS/certifiable-calibration/master/calibration_high_level.png" width="500px"/>
+
 
 ## Installation and Dependencies 
 
@@ -24,9 +18,22 @@ Our experiments made use of the code and dataset available [here](http://jbrooks
 All code is found in the folder `matlab/`. Be sure to add this folder and its subfolders to your MATLAB path.
 
 ### Plotting Script
-The code for plots appearing in our [paper](https://arxiv.org) listed above can be run with the script `matlab/plot_ral_figures.m`. This script uses the `.mat` files containing experimental results in `data/`. The data files are addressed relatively, so be sure to run the script from within the `matlab/` folder.
+The code for plots appearing in our [paper](https://arxiv.org) listed below can be run with the script `matlab/plot_ral_figures.m`. This script uses the `.mat` files containing experimental results in `data/`. The data files are addressed relatively, so be sure to run the script from within the `matlab/` folder.
 
 ### Calibration Example Script
 The script `matlab/example_egomotion_calibration.m` shows a sample usage of the function `matlab/egomotion_calibration/egomotion_calibration.m` on simulated noisy data. 
 
+<img src="https://raw.githubusercontent.com/utiasSTARS/certifiable-calibration/master/egomotion.png" width="400px"/>
 
+
+## Citation
+If you use any of this code in your work, please cite the [relevant publication](https://arxiv.org): 
+
+```bibtex
+@article{giamou2017talk,
+  title   = {Certifiably Globally Optimal Extrinsic Calibration from Per-Sensor Egomotion},
+  author  = {Giamou, Matthew and Ma, Ziye and Peretroukhin, Valentin and Kelly, Jonathan},
+  journal = {{IEEE} Robotics and Automation Letters (submitted)}
+  year    = {2018}
+}
+```
