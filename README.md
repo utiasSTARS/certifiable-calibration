@@ -18,7 +18,7 @@ Our experiments made use of the code and dataset available [here](http://jbrooks
 All code is found in the folder `matlab/`. Be sure to add this folder and its subfolders to your MATLAB path.
 
 ### Plotting Script
-The code for plots appearing in our [paper](https://arxiv.org) listed below can be run with the script `matlab/plot_ral_figures.m`. This script uses the `.mat` files containing experimental results in `data/`. The data files are addressed relatively, so be sure to run the script from within the `matlab/` folder.
+The code for plots appearing in our [paper](https://arxiv.org/pdf/1809.03554.pdf) listed below can be run with the script `matlab/plot_ral_figures.m`. This script uses the `.mat` files containing experimental results in `data/`. The data files are addressed relatively, so be sure to run the script from within the `matlab/` folder.
 
 ### Calibration Example Script
 The script `matlab/example_egomotion_calibration.m` shows a sample usage of the function `matlab/egomotion_calibration/egomotion_calibration.m` on simulated noisy data. 
@@ -27,7 +27,7 @@ The script `matlab/example_egomotion_calibration.m` shows a sample usage of the 
 
 
 ## Citation
-If you use any of this code in your work, please cite the [relevant publication](https://arxiv.org): 
+If you use any of this code in your work, please cite the [relevant publication](https://arxiv.org/pdf/1809.03554.pdf): 
 
 ```bibtex
 @article{giamou2017talk,
