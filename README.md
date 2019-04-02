@@ -30,10 +30,15 @@ The script `matlab/example_egomotion_calibration.m` shows a sample usage of the 
 If you use any of this code in your work, please cite the [relevant publication](https://arxiv.org/pdf/1809.03554.pdf): 
 
 ```bibtex
-@article{giamou2017talk,
-  title   = {Certifiably Globally Optimal Extrinsic Calibration from Per-Sensor Egomotion},
-  author  = {Giamou, Matthew and Ma, Ziye and Peretroukhin, Valentin and Kelly, Jonathan},
-  journal = {{IEEE} Robotics and Automation Letters (submitted)}
-  year    = {2018}
+@article{giamou2019certifiably,
+  title={Certifiably Globally Optimal Extrinsic Calibration from Per-Sensor Egomotion},
+  author={Giamou, Matthew and Ma, Ziye and Peretroukhin, Valentin and Kelly, Jonathan},
+  journal={IEEE Robotics and Automation Letters},
+  volume={4},
+  number={2},
+  pages={367--374},
+  year={2019},
+  publisher={IEEE}
 }
+
 ```
