@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__
+.cache
+*.egg-info
+.vscode
+*.pyc
+
+# PyCharm
+.idea
