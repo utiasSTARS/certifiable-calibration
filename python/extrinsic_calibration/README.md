@@ -15,7 +15,7 @@ The following packages were used to compile and run the code:
 - future~=0.18.2
 - [cvxpy~=1.0.29](https://www.cvxpy.org/)
 
-[CVXOPT](http://cvxopt.org/) solver was used in this package.
+The [CVXOPT](http://cvxopt.org/) solver was used in this package.
 
 ## Minimal Usage
 The script `example_hand_eye.py` demonstrates a sample usage of the solver on simulated noisy data.
@@ -41,9 +41,9 @@ If you use any of this code in your work, please cite the [relevant publication]
 ## File Naming Convention
 The result file names follow the convention:
 
-"datasetfilename_constraints.mat"
+`datasetfilename_constraints.mat`.
 
-If a file starts with perXtYr, then the poses' translation have had (X/10)% gaussian white noise added and rotation have had (Y/10)% gaussian White noise added.
+If a file starts with perXtYr, then the poses' translations have been perturbed with (X/10)% zero-mean Gaussian noise and their rotations have been perturbed (Y/10)% zero-mean Gaussian noise.
 
 ## Data in File
 The results are stored in a python `dict()`. The keys for the relevent data are:
