@@ -1,5 +1,5 @@
 # Globally Optimal Extrinsic Calibration for Egomotion Sensors
-Certifiably globally optimal extrinsic calibration of sesnors capable of providing egomotion estimates.
+Certifiably globally optimal extrinsic calibration of sesnors capable of providing egomotion estimates. The problem our code solves is also commonly called "hand-eye calibration", or the `AX=XB` problem.
 
 ## Installation and Dependencies 
 
