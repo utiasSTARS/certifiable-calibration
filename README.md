@@ -5,7 +5,7 @@ Certifiably globally optimal extrinsic calibration for sensors providing egomoti
 
 
 ## MATLAB Code for Egomotion Sensor Calibration
-See the [`matlab/`](https://github.com/utiasSTARS/certifiable-calibration/tree/master/matlab) directory for instructions on how to run the algorithm from [our 2019 IEEE RA-L publication](https://arxiv.org/pdf/1809.03554.pdf). The [`data/`](https://github.com/utiasSTARS/certifiable-calibration/tree/master/data) directory contains files with experimental results from our paper.
+See the [`matlab/`](https://github.com/utiasSTARS/certifiable-calibration/tree/master/matlab) directory for instructions on how to run the algorithm from [our 2019 IEEE RA-L publication](https://arxiv.org/abs/1809.03554). The [`data/`](https://github.com/utiasSTARS/certifiable-calibration/tree/master/data) directory contains files with experimental results from our paper.
 
 
 ## Python Code for Monocular Hand-Eye Calibration
