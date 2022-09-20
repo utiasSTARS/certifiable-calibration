@@ -31,9 +31,9 @@ If you use this work in your research, please cite the following papers:
   address = {Karlsruhe, Germany},
   author = {Emmett Wise and Matthew Giamou and Soroush Khoubyarian and Abhinav Grover and Jonathan Kelly},
   booktitle = {Proceedings of the {IEEE} International Conference on Multisensor Fusion and Integration {(MFI)}},
-	doi = {10.1109/MFI49285.2020.9235219},
-	title = {Certifiably Optimal Monocular Hand-Eye Calibration},
-	url = {https://arxiv.org/abs/2005.08298},
-	year = {2020}
+  doi = {10.1109/MFI49285.2020.9235219},
+  title = {Certifiably Optimal Monocular Hand-Eye Calibration},
+  url = {https://arxiv.org/abs/2005.08298},
+  year = {2020}
 }
 ```
