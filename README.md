@@ -14,7 +14,7 @@ See the [`python/extrinsic_calibration`](https://github.com/utiasSTARS/certifiab
 ##  Citation
 If you use this work in your research, please cite the following papers:
 
-```
+```bibtex
 @article{2019_Giamou_Certifiably,
   doi = {10.1109/LRA.2018.2890444},
   journal = {{IEEE} Robotics and Automation Letters},
